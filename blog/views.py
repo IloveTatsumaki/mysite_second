@@ -10,6 +10,8 @@ from taggit.models import Tag
 
 from django.db.models import Count
 
+from .forms import SearchForm
+
 
 class PostListView(ListView):
     queryset = Post.published.all()

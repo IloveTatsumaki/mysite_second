@@ -84,9 +84,11 @@ WSGI_APPLICATION = 'cellobeka.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
+        'NAME': 'BEKA_TEST',
         'USER': 'postgres',
-        'PASSWORD': 'admin'
+        'PASSWORD': 'admin',
+        'HOST': 'localhost',
+        'PORT': '5432'
     }
 }
 
